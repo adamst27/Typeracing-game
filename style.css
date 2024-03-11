@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html {
+  font-family: 'Rubik', sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px;
+}
+
+main .input-field {
+  background-color: #E4E9B2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px;
+  gap: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+}
+
+main .input-field input {
+  border-radius: 60px;
+  padding: 10px;
+  border: 0.1px solid;
+  margin-top: 10px;
+}
+
+main .input-field input::focus {
+  outline: none;
+  border: 1px solid #E4E9B2
+}
+
+main .input-field .scoring-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-direction: row;
+  font-size: 0.75rem;
+  margin-top: 10px;
+}
